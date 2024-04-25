@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Invasion syntaxique</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="container">
+        <div id="game-header">
+            <h1>Tir à vue</h1>            
+            <div id="gameInfo">
+                <h2 id="missionStatement">Tire sur les mots grammaticaux (ex.: je, tu, ce, un, qui, dont, sur, etc.)</h2>
+                <h3>P/p pour pause</h3>
+                <p id="score">Score: 0</p>
+                <p id="timer"></p> <!-- Timer element -->
+            </div>
+        </div>
+        <div id="game-container">
+            <canvas id="gameCanvas"></canvas>
+        </div>
+    </div>
+    
+    <audio id="backgroundMusic" loop src="syntax-invaders-v2.mp3"></audio>
+    <audio id="spawnSound" src="spawn.mp3"></audio>
+    <audio id="hitTargetSound" src="success.mp3"></audio>
+    <audio id="hitDistractorSound" src="error.mp3"></audio>
+    <audio id="shootingSound" src="shootingSound.mp3"></audio>
+    <audio id="winSound" src="win.mp3"></audio>            
+    <audio id="gameOverSound" src="game-over.mp3"></audio>        
+    
+
+    <script src="game-v2a.js"></script>
+</body>
+</html>
+
+
+
