@@ -1,12 +1,16 @@
 # SyntaxGames
 
 <p align="center">
-  <img width="460" height="300" src="crayon-ship.png">
+  <img width="100" height="100" src="crayon-ship.png">
 </p>
 
-![play](play.png){ width="800" height="600" style="display: block; margin: 0 auto" }
+<p align="center">
+  <img width="667" height="687" src="play.png">
+</p>
 
-![win](win.png){ width="800" height="600" style="display: block; margin: 0 auto" }
+<p align="center">
+  <img width="667" height="687" src="win.png">
+</p>
 
 
 **Experimental "serious" games to teach syntax (linguistics)**
