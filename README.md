@@ -17,4 +17,7 @@ All contents are placed under the MIT license.
 </p>
 
 
+## Play!
 
+  - [Play the English version of the game](https://abalvet.github.io/SyntaxGames/en)
+  - [Play the French version of the game / Jouer à la version française](https://abalvet.github.io/SyntaxGames/fr)
