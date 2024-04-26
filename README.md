@@ -1,6 +1,7 @@
 # SyntaxGames
 
 **Experimental "serious" games to teach syntax (linguistics)**
+
 All contents are placed under the MIT license.
 
 <p align="center">
