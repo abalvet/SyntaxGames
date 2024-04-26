@@ -313,7 +313,7 @@ function updateWords(currentTime) {
         obj.y = fallProgress * canvas.height;
 
         // Flutter effect: Adjust x position with a combination of sine wave and randomness
-        const flutterAmplitude = 5; // Max distance the word can move left/right
+        const flutterAmplitude = 2; // Max distance the word can move left/right
         const flutterFrequency = 0.01; // Adjusts the frequency of the flutter: 
         //5 for flutterAmplitude and 0.01 for flutterFrequency is already a bit challenging
         obj.x += flutterAmplitude * Math.sin(currentTime * flutterFrequency) + (Math.random() * 2 - 1); // Adding random variation
