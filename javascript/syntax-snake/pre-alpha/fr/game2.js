@@ -257,7 +257,7 @@ function startGame() {
     gameStarted = false;
     words = [];
     spawnWords();
-    gameInterval = setInterval(update, 200);
+    gameInterval = setInterval(update, 350);//change refresh rate: higher values make the snake move slower
 }
 
 
